@@ -3,7 +3,10 @@
     padding: 0;
 }
 
-
+body{
+    background-color: #fafafa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .container{
     position: relative;
     height: 100vh;
@@ -17,9 +20,64 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .menu{
-    border: 1px solid black;
-    width: 450px;
-    height: 300px;
+    background-color: #FFFFFF;
+    border: 1px solid lightgrey;
+    margin-left: 35px;
+    padding: 45px;
+    width: 250px;
+    height: 280px;
     text-align: center;
 }
+.area-acesso{
+    margin-top: 25px;
+}
+.area-acesso > #usuario, #senha{
+    width: 260px;
+    height: 30px;
+    padding: 3px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    background-color: #fafafa;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+}
+input.botao{
+    background-color: #b2dffc;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 8px;
+    width: 265px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+}
+
+.menu > p{
+    font-weight: bold;
+    font-size: 0.8em;
+    color: rgb(175, 174, 174);
+
+    margin-top: 10px;
+}
+
+.area-acesso2{
+    margin-top: 15px;
+}
+.area-acesso2 > a{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.with-facebook{
+    font-weight: bold;
+    color: #385195;
+    text-decoration: none;
+}
+.forgot-password{
+    font-size: 0.7em;
+    color: #5270b8;
+    text-decoration: none;
+}
+
