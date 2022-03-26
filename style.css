@@ -14,16 +14,31 @@ body{
 .conteudo{
     position: absolute;
     display: flex;
-    flex-direction: row;
 
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+.slide{
+    position: relative;
+    width: 250px;
+    height: 541px;
+}
+.slide > img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+}
+.slide > img.selected{
+    opacity: 1;
+}
+
 .menu{
     background-color: #FFFFFF;
-    border: 1px solid lightgrey;
+    border: 1px solid rgb(194, 193, 193);
     margin-left: 35px;
     padding: 45px;
     width: 250px;
@@ -41,7 +56,7 @@ body{
     font-size: 12px;
     background-color: #fafafa;
     border-radius: 3px;
-    border: 1px solid lightgrey;
+    border: 1px solid rgb(194, 193, 193);
 }
 input.botao{
     background-color: #b2dffc;
@@ -80,4 +95,32 @@ input.botao{
     color: #5270b8;
     text-decoration: none;
 }
+.sign-up{
+    border: 1px solid rgb(194, 193, 193);
+    margin-left: 35px;
+    margin-top: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.sign-up > p > a{
+    color: #31b8fa;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.get-app{
+    margin-left: 35px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.get-app-img{
+    margin-top: 20px;
+}
+
+
 
